@@ -1,0 +1,36 @@
+body {
+    background: rgb(72, 72, 250);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 3px black;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+p > #botao {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: darkgray;
+    color: white;
+}
+
+p > #botao:hover {
+    background-color: lightslategray;
+    transition-duration: 0.3s;
+} 

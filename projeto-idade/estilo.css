@@ -1,0 +1,82 @@
+body{
+background: rgb(87, 87, 87);
+font: normal 15pt Arial;
+}
+
+header{
+color: white;
+text-align: center;
+font-weight: 900;
+text-shadow: 2px 2px 5px black;
+
+}
+
+section{
+background: #ffffff;
+border-radius: 10px;
+padding: 15px;
+font-weight: bolder;
+margin: auto;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.557);
+
+}
+
+#anonasc{
+    font-size: 1.3em;
+   
+}
+ input#mas{
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5);
+
+ }
+
+ input#fem{
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5);
+ } 
+
+#txtano {
+    padding: 4px;
+    box-shadow: 0px 1px 3px black;
+}
+
+#txtano:hover {
+    background-color: darkgray;
+    transition-duration: 0.5s;
+}
+#verificar {
+    padding: 10px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    
+}
+ 
+#verificar:hover {
+    background-color: darkgrey;
+    transition-duration: 0.5s;
+}
+
+
+footer{
+text-align: center;
+font-style: italic;
+}
+div{
+    text-align: center;
+    padding: 8px;
+}
+
+a{
+    color: rgb(227, 227, 227);
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 0px black;
+    
+}
+
+a:hover{
+    text-decoration: underline;
+}

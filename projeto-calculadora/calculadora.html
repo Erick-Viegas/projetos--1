@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+    <div class="fundo">
+        <h1> <a href="https://github.com/Erick-Viegas">Erick :)</a></h1>
+        
+            <div class="calculadora">
+                <h1>Calculadora</h1>
+                <p id="resultado"></p>
+                <table>
+                    <tr>
+                        <td><Button class="botao" onclick="clean()">C</Button></td>
+                        <td><Button class="botao" onclick="back()"><</Button></td>
+                        <td><Button class="botao" onclick="clique('/')">/</Button></td>
+                        <td><Button class="botao" onclick="clique('*')">X</Button></td>
+                    </tr>
+                    <tr>
+                        <td><Button class="botao" onclick="clique('7')">7</Button></td>
+                        <td><Button class="botao" onclick="clique('8')">8</Button></td>
+                        <td><Button class="botao" onclick="clique('9')">9</Button></td>
+                        <td><Button class="botao" onclick="clique('-')">-</Button></td>
+                    </tr>
+                    <tr>
+                        <td><Button class="botao" onclick="clique('4')">4</Button></td>
+                        <td><Button class="botao" onclick="clique('5')">5</Button></td>
+                        <td><Button class="botao" onclick="clique('6')">6</Button></td>
+                        <td><Button class="botao" onclick="clique('+')">+</Button></td>
+                    </tr>
+                    <tr>
+                        <td><Button class="botao" onclick="clique('1')">1</Button></td>
+                        <td><Button class="botao" onclick="clique('2')">2</Button></td>
+                        <td><Button class="botao" onclick="clique('3')">3</Button></td>
+                        <td rowspan="2"><Button class="botao" style="height:106px;" onclick="calcular()">=</Button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><Button class="botao" style="width: 106px;" onclick="clique('0')">0</Button></td>
+                        <td><Button class="botao" onclick="clique('.')">.</Button></td>
+                     
+                    </tr>
+                </table>
+            </div>
+    </div>
+    <script src="calculadora.js"></script>
+</body>
+</html>
