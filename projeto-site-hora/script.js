@@ -7,7 +7,7 @@ var img = window.document.getElementById('imagem')
  var hora = data.getHours()
  var minuto = data.getMinutes()
  var segundo = data.getSeconds()
- setTimeout(carregar, 1000)
+ setInterval(carregar, 1000)
  
 
 
