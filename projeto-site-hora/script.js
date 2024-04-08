@@ -7,6 +7,8 @@ var img = window.document.getElementById('imagem')
  var hora = data.getHours()
  var minuto = data.getMinutes()
  var segundo = data.getSeconds()
+ setTimeout(carregar, 1000)
+ 
 
 
 msg.innerHTML = `Agora são ${hora} Horas ${minuto} minutos e ${segundo} segundos no horário de Brasília`
