@@ -9,8 +9,6 @@ var img = window.document.getElementById('imagem')
  var segundo = data.getSeconds()
  setInterval(carregar, 1000)
  
-
-
 msg.innerHTML = `Agora são ${hora} Horas ${minuto} minutos e ${segundo} segundos no horário de Brasília`
 
 if (hora >= 5 && hora <= 11) {
